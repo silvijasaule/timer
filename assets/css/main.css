@@ -354,6 +354,17 @@ template {
 
 .header {
   margin-top: 1.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -391,6 +402,11 @@ template {
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   margin-bottom: 0;
+  display: inline-block;
+}
+
+.header__link--no-wrap {
+  white-space: nowrap;
 }
 
 .header__link:hover {
