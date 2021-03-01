@@ -512,4 +512,74 @@ template {
 .hero__img {
   width: 100%;
 }
+
+.inside__container {
+  padding: 100px 0;
+}
+
+.inside__header {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 2.375rem;
+  line-height: 3rem;
+  color: #312562;
+}
+
+.inside__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.inside__card-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+}
+
+.inside__card-img {
+  margin-right: 45px;
+}
+
+.inside__card {
+  max-width: 24.375rem;
+  max-height: 14.0625rem;
+  background: rgba(251, 222, 154, 0.25);
+  border-radius: 30px;
+  padding: 35px;
+}
+
+.inside__card--middle {
+  background: rgba(183, 233, 233, 0.25);
+}
+
+.inside__card-header {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #6c56c2;
+}
+
+.inside__card-text {
+  font-family: "Mulish";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #5C547A;
+  margin: auto;
+}
 /*# sourceMappingURL=main.css.map */
