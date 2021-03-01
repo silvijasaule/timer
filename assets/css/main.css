@@ -460,11 +460,13 @@ template {
 }
 
 .hero__container {
-  position: relative;
+  margin-top: 50px;
+  padding: 30px 0;
 }
 
 .hero__left {
-  width: 60%;
+  width: 55%;
+  position: relative;
 }
 
 .hero__header {
@@ -475,6 +477,7 @@ template {
   line-height: 3.3125rem;
   padding-bottom: 2.5rem;
   border-bottom: 2px solid #FED7ED;
+  margin-right: 10px;
 }
 
 .hero__text {
@@ -502,7 +505,8 @@ template {
 .hero__right {
   width: 50%;
   position: absolute;
-  right: 1.875rem;
+  right: 2.5rem;
+  margin-top: 6.25rem;
 }
 
 .hero__img {
