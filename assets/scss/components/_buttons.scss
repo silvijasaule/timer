@@ -1,7 +1,8 @@
 @mixin button ($background-color, $text-color) {
     background: $background-color;
     color: $text-color;
-    padding: 13px 19px;
-    border-radius: 4px;
-    border: 1px solid rgba(17, 17, 17, 0.303074)
+    padding: 10px 38px;
+    border-radius: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
 }

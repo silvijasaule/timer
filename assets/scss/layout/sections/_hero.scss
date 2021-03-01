@@ -1,0 +1,57 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    &__container {
+        position: relative;
+    }
+
+    &__left {
+        width: 60%;
+        
+    }
+
+    &__header {
+        color: $header-color;
+        font-family: 'Mulish';
+        font-weight: 800;
+        font-size: rem(42);
+        line-height: rem(53);
+        padding-bottom: rem(40);
+        border-bottom: 2px solid #FED7ED;
+    }
+
+    &__text {
+        color: $text-color;
+        font-family: 'Mulish';
+        font-weight: 600;
+        font-size: rem(16);
+        line-height: 150%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+        max-width: rem(505);
+        
+    }
+
+    &__link {
+        text-decoration: none;
+        @include button ($header-color, white);
+        border: 2px solid $header-color;
+       
+    }
+
+    &__right {
+        width: 50%;
+        // transform: translateX(-10%);
+        position: absolute;
+        right: rem(30);
+    }
+
+    &__img {
+        width: 100%;
+        
+    }
+}
+

@@ -366,6 +366,8 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .header__left {
@@ -396,11 +398,11 @@ template {
   text-decoration: none;
   font-family: 'Mulish';
   font-weight: 700;
-  padding: 0.625rem 1.6875rem;
+  padding: 0.625rem 1.6875rem 0.125rem;
   color: #312562;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
   margin-bottom: 0;
   display: inline-block;
 }
@@ -415,10 +417,12 @@ template {
 
 .header__button {
   background: white;
-  color: #312562;
-  padding: 13px 19px;
-  border-radius: 4px;
-  border: 1px solid rgba(17, 17, 17, 0.303074);
+  color: #FAA765;
+  padding: 10px 38px;
+  border-radius: 30px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  border: 2px solid #FAA765;
   -webkit-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
@@ -427,17 +431,81 @@ template {
 .header__button:hover {
   background: #FAA765;
   color: white;
-  padding: 13px 19px;
-  border-radius: 4px;
-  border: 1px solid rgba(17, 17, 17, 0.303074);
+  padding: 10px 38px;
+  border-radius: 30px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
-  .header .header__navigation {
+  .header .header__nav {
     display: none;
   }
   .header .header__button {
     display: none;
   }
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.hero__container {
+  position: relative;
+}
+
+.hero__left {
+  width: 60%;
+}
+
+.hero__header {
+  color: #312562;
+  font-family: 'Mulish';
+  font-weight: 800;
+  font-size: 2.625rem;
+  line-height: 3.3125rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 2px solid #FED7ED;
+}
+
+.hero__text {
+  color: #5C547A;
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  max-width: 31.5625rem;
+}
+
+.hero__link {
+  text-decoration: none;
+  background: #312562;
+  color: white;
+  padding: 10px 38px;
+  border-radius: 30px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  border: 2px solid #312562;
+}
+
+.hero__right {
+  width: 50%;
+  position: absolute;
+  right: 1.875rem;
+}
+
+.hero__img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
